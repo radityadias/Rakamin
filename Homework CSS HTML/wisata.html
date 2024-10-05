@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wisata</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="wisata.css" />
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+
+  </head>
+  <body>
+    <header>
+      <!-- Background Image -->
+      <img src="bg.jpg" alt="Nature" class="bg-image" />
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-body-none fixed-top">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler border-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Berita</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Booking</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Destinasi
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Yogyakarta</a></li>
+                  <li><a class="dropdown-item" href="#">Solo</a></li>
+                  <li><a class="dropdown-item" href="#">Temanggung</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Judul -->
+    <div class="wrapper-judul">
+      <h2>Tempat Wisata Terbaik di Indonesia</h2>
+    </div>
+
+    <!-- Button Judul -->
+    <div class="wrapper-button">
+      <button class="btn btn-light">Jelajahi Sekarang</button>
+    </div>
+
+    <!-- Judul Destinasi -->
+    <div class="container" id="judul-content"></div>
+
+    <!-- Destinasi Wisata -->
+    <div class="container mt-3" id="destinasi">
+      <h3>Destinasi Utama</h3>
+      <div class="row row-cols-2 row-cols-lg-5 g-3">
+        <div class="col">
+          <a href="#">
+            <div class="card">
+            <img src="tugu.jpg" class="card-img-top" alt="Tugu Jogja" />
+            <div class="card-img-overlay">
+              <p class="card-text">Tugu Jogja</p>
+            </div>
+          </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="#">
+           <div class="card">
+            <img
+              src="pantai.jpg"
+              class="card-img-top"
+              alt="Pantai Indrayanti"
+            />
+            <div class="card-img-overlay">
+              <p class="card-text">Pantai Indrayanti</p>
+            </div>
+          </div> 
+          </a>
+        </div>
+        <div class="col">
+          <a href="#">
+            <div class="card">
+            <img src="merapi.jpg" class="card-img-top" alt="Gunung Merapi" />
+            <div class="card-img-overlay">
+              <p class="card-text">Gunung Merapi</p>
+            </div>
+          </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="#">
+            <div class="card">
+            <img src="malioboro.jpg" class="card-img-top" alt="Malioboro" />
+            <div class="card-img-overlay">
+              <p class="card-text">Malioboro</p>
+            </div>
+          </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="#">
+            <div class="card">
+            <img
+              src="kebun binatang.jpg"
+              class="card-img-top"
+              alt="Kebun Binatang"
+            />
+            <div class="card-img-overlay">
+              <p class="card-text">Kebun Binatang</p>
+            </div>
+          </div>
+          </a>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Judul Informasi -->
+    <div class="container" id="informasi">
+      <h2 class="mt-5 mb-2">Informasi Tempat Wisata</h2>
+      <div class="row row-cols-1 mb-5 mb-3">
+        <div class="col">
+          <a href="#">
+            <div class="card">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="tugu2.jpg"
+                    class="img-fluid rounded-start"
+                    alt="Tugu Jogja"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h3 class="card-title">Malioboro</h3>
+                    <p class="card-text">
+                      Jalan Malioboro terkenal dengan para pedagang kaki lima yang
+                      menjajakan kerajinan khas Jogja dan warung-warung lesehan di
+                      malam hari yang menjual kuliner Jogja seperti gudeg.
+                    </p>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>  
+          </a>
+          
+        </div>
+      </div>
+      <div class="row row-cols-1 mb-5 mb-3">
+        <div class="col">
+          <a href="#">
+            <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="indrayanti.jpg"
+                  class="img-fluid rounded-start"
+                  alt="Tugu Jogja"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h3 class="card-title">Pantai Indrayanti</h3>
+                  <p class="card-text">
+                    Terletak di sebelah timur Pantai Sundak, pantai yang
+                    dibatasi bukit karang ini merupakan salah satu pantai yang
+                    menyajikan pemandangan berbeda dibandingkan pantai-pantai
+                    lain yang ada di Gunungkidul. Tidak hanya berhiaskan pasir
+                    putih, bukit karang, dan air biru jernih yang seolah
+                    memanggil-manggil wisatawan untuk menceburkan diri ke
+                    dalamnya, Pantai Indrayanti juga dilengkapi restoran dan
+                    cafe serta deretan penginapan yang akan memanjakan
+                    wisatawan.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </a>
+          
+        </div>
+      </div>
+      <div class="row row-cols-1 mb-5 mb-3">
+        <div class="col">
+          <a href="#">
+            <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="gunung.jpg"
+                  class="img-fluid rounded-start"
+                  alt="Tugu Jogja"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h3 class="card-title">Gunung Merapi</h3>
+                  <p class="card-text">
+                    Gunung Merapi (ketinggian puncak 2.930 mdpl, per 2010)
+                    adalah gunung berapi di bagian tengah Pulau Jawa dan
+                    merupakan salah satu gunung api teraktif di Indonesia.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </a>
+          
+        </div>
+      </div>
+      <div class="row row-cols-1 mb-5 mb-3">
+        <div class="col">
+          <a href="#">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="tugu3.jpg"
+                  class="img-fluid rounded-start"
+                  alt="Tugu Jogja"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h3 class="card-title">Tugu Jogja</h3>
+                  <p class="card-text">
+                    Tugu ini sekarang merupakan salah satu objek pariwisata
+                    Yogyakarta, dan sering dikenal dengan istilah “Tugu Pal
+                    Putih” (pal juga berarti tugu), karena warna cat yang
+                    digunakan sejak dulu adalah warna putih. Tugu pal ini
+                    berbentuk bulat panjang dengan bola kecil dan ujung yang
+                    runcing di bagian atasnya.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>  
+          </a>
+          
+        </div>
+      </div>
+      <div class="row row-cols-1 mb-5 mb-3">
+        <div class="col">
+          <a href="#">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="bonbin.jpg"
+                  class="img-fluid rounded-start"
+                  alt="Tugu Jogja"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h3 class="card-title">Tugu Jogja</h3>
+                  <p class="card-text">
+                    Kebun Raya dan Kebun Binatang Gembira Loka adalah kebun binatang yang berada di Kota Yogyakarta.
+                     Berisi berbagai macam spesies dari belahan dunia, seperti orang utan, gajah asia, simpanse, harimau, dan lain sebagainya.
+                      Gembira Loka Zoo sempat rusak parah akibat gempa bumi Yogyakarta tahun 2006. Tetapi, 
+                      setelah direnovasi Kebun Binatang Gembira Loka tetap dicari para wisatawan.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>  
+          </a>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Galeri -->
+    <div class="container mb-5" id="galeri">
+      <h2>Abadikan Perjalananmu</h2>
+      <div class="row row-cols-1 row-cols-lg-4">
+        <div class="col">
+          <div class="card">
+            <img src="gl1.jpg" class="card-img-top" alt="Tugu Jogja" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="gl8.jpg" class="card-img-top" alt="Tugu Jogja" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="gl2.jpg" class="card-img-top" alt="Tugu Jogja" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="gl3.jpg" class="card-img-top" alt="Tugu Jogja" />
+          </div>
+        </div>
+      </div>  
+      <div class="row row-cols-1 row-cols-lg-4">
+        <div class="col">
+          <div class="card">
+            <img src="gl4.jpg" class="card-img-top" alt="Tugu Jogja" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="gl5.jpg" class="card-img-top" alt="Tugu Jogja" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="gl6.jpg" class="card-img-top" alt="Tugu Jogja" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="gl7.jpg" class="card-img-top" alt="Tugu Jogja" />
+          </div>
+        </div>
+      </div> 
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container" id="wrapper-footer">
+        <div class="row row-cols-1 row-cols-lg-2">
+          <div class="col">
+            <h5 class="ft-judul">Sosial Media</h5>
+            <div class="row">
+              <a href="#"><span>Instagram</span></a>
+            </div>
+            <div class="row">
+              <a href="#"><span>Email</span></a>
+            </div>
+            <div class="row">
+              <a href="#"><span>Facebook</span></a>
+            </div>
+          </div>
+          <div class="col">
+            <h5 class="ft-judul">Lain-lain</h5>
+            <div class="row">
+              <a href="#"><span>LinkedIn</span></a>
+            </div>
+            <div class="row">
+              <a href="#"><span>Github</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="to-top"><i class="lni lni-chevron-up"></i></a>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="wisata.js"></script>
+  </body>
+</html>

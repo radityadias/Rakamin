@@ -1,0 +1,196 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.bg-image{
+    height: 80vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.navbar{
+    background-color: #4a494754;
+    
+}
+
+.navbar-brand,
+.nav-link{
+    color: #ffffff !important;
+    /* Custom white text color */
+}
+
+.nav-link:hover {
+    color: #ffdd57 !important;
+    /* Change color on hover */
+}
+
+.wrapper-judul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 45vh;
+    color: white;
+}
+
+.wrapper-button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+#judul-content{
+    display: flex;
+    margin-top: 22vh;
+}
+
+#destinasi .card{
+    border: none;
+    width: 100%;
+}
+
+#destinasi .card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+#destinasi .card img{
+    filter: brightness(0.6);
+    height: 40vh;
+    border-radius: 2%;
+}
+
+#destinasi .card-img-overlay{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: white;
+}
+
+#informasi{
+    margin-top: 12vh;
+}
+
+#informasi a{
+    text-decoration: none;
+}
+
+#informasi .card{
+    width: 100%;
+}
+
+#informasi .card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.04);
+    transition: all 0.3s ease;
+}
+
+#informasi .card img {
+    width: 100%;
+}
+
+#informasi h3{
+    font-weight: 700 !important;
+    font: bold;
+}
+
+footer{
+    background: #4A4947;
+    padding: 3vh;
+    color: white;
+    position: relative;
+}
+
+#wrapper-footer{
+    text-align: center;
+}
+
+#wrapper-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+#wrapper-footer a span:hover {
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+    transform: scale(1.02);
+}
+
+.ft-judul{
+    font: bold;
+    font-weight: 700;
+}
+
+#galeri .card{
+    border: none;
+}
+
+#galeri img{
+    height: 30vh;
+    width: 100%;
+    margin-bottom: 4vh;
+    border-radius: 2%;
+}
+
+#galeri img:hover{
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.04);
+    transition: all 0.3s ease;
+}
+
+.to-top{
+    background: white;
+    position: fixed;
+    bottom: 1vh;
+    right: 2vh;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 90%;
+    color: black;
+    text-decoration: none;
+    pointer-events: none;
+    opacity: 0;
+    transition: all .4s;
+    border: 1px solid #4A4947;
+}
+
+.to-top.active{
+    bottom: 2vh;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+@media(max-width: 720px) {
+    .navbar {
+        background-color: none;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    .nav-link {
+        color: black !important;
+    }
+
+    .wrapper-judul {
+        text-align: center;
+    }
+
+    footer .col {
+        margin-bottom: 3vh;
+    }
+}
+
+
+
